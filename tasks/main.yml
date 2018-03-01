@@ -1,0 +1,5 @@
+---
+
+- template: src=mit-typo3.include-{{ mit_nginx_typo3_version }} dest=/etc/nginx/conf.d/mit-typo3.include
+  notify: Restart nginx  
+
